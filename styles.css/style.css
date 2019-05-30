@@ -1,0 +1,29 @@
+/* font awesome */
+/* 
+<i class="fas fa-angle-double-down"></i> 
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-linkedin-in"></i> */
+
+/* colors */
+
+
+    colorCircle1: #f34739;
+    colorCircle2: #1baf8a;
+    colorCircle3: #1f1f1f;
+
+
+/* color variables  */
+
+$colorDark: #1f1f1f;
+$colorLight: #f1f1f1;
+$colorDecor: #f34739;
+$ColorTextDark: #454545;
+$ColorTextLight: #747474;
+
+/* font variables  */
+
+$primaryFont: 'Quicksand', sans-serif;
+$secondaryFont: 'Mandali', sans-serif; 
+
