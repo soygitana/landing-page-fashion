@@ -1,0 +1,24 @@
+.text-flex {
+    position: relative;
+    text-align: center;
+
+    p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        @extend .section-title;
+        color: $fontLight;
+        margin: 0;
+    }
+
+    .text-normal {
+        font-style: normal;
+        font-weight: 500;
+    }
+}
+
+.img-outline {
+    outline: 1px solid $fontLight;
+    outline-offset: -15px;
+}

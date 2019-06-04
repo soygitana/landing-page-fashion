@@ -1,0 +1,50 @@
+body {
+    font-family: $fontPrimary;
+    color: $fontLight;
+    font-size: 10px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-flex {
+    flex: 1;
+    padding: .5rem;
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid $fontDark;
+    color: $fontDark;
+    text-transform: uppercase;
+    padding: 1rem;
+    width: 10rem;
+    cursor: pointer;
+}
+
+section {
+    margin: 2rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    font-weight: 300;
+    color: $fontDarkest;
+    margin: 4rem 0;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
