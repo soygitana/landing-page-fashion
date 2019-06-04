@@ -1,1 +1,0 @@
-# weekly-webdev-challange
