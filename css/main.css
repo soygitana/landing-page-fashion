@@ -166,58 +166,51 @@ section {
   outline: 1px solid #f5ecec;
   outline-offset: -15px;
 }
-/*# sourceMappingURL=main.css.map */
-
 
 .section-subscribe {
-  background-image: url(../images/img\ \(9\).jpg);
-  background-size: cover;
-  width: 100%;
+  opacity: 0.9;
+  background-image: url(../images/subscribe.jpg);
   margin: 0;
+  background-size: cover;
+  background-position: center;
 }
 
-.section-subscribe .section-title {
-  font-style: normal;
+.section-subscribe .container-flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-subscribe .section-title, .section-subscribe .text-flex p, .text-flex .section-subscribe p {
   color: #f5ecec;
+  font-style: normal;
+  font-size: 1.2rem;
   text-transform: uppercase;
-  font-size: 1rem;
 }
 
 .section-subscribe input {
   width: 100%;
-  height: 3rem;
-  background-color: transparent;
-  text-transform: uppercase;
-  font-size: .8rem;
-  padding-left: 0.5rem;
-  color: #f5ecec;
+  height: 2rem;
+  padding: .5rem;
+  font-size: 1rem;
 }
 
-.section-subscribe .container-flex {
-  flex-direction: column;
+.section-subscribe .btn, .section-subscribe .hero .box-flex .btn, .hero .box-flex .section-subscribe .btn {
+  background-color: #f5ecec;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 1rem;
+  color: #2b2a2a;
 }
 
-.section-subscribe .btn {
-background-color:  #f5ecec;
-color: black;
-font-size: .8rem;
-font-weight: 700;
-margin: 3rem;
-}
-
-.page-footer .section-title {
+.page-footer .section-title, .page-footer .text-flex p, .text-flex .page-footer p {
   font-style: normal;
-  color: rgb(99, 96, 96);
+  color: #636060;
   font-size: 1.2rem;
 }
 
 .page-footer i {
-color: rgb(196, 9, 9);
+  color: #c40909;
 }
-
-
-.halinka {
-  border: 3px solid rgb(12, 129, 238);
-  border-radius: 50%;
-  margin: 50px;
-}
+/*# sourceMappingURL=main.css.map */

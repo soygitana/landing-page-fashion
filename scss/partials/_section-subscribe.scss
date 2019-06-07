@@ -1,0 +1,33 @@
+.section-subscribe {
+    opacity: 0.9;
+    background-image: url(../images/subscribe.jpg);
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+
+    .container-flex {
+        flex-direction: column;
+    }
+
+    .section-title {
+        color: $fontLight;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+    }
+
+    input {
+        width: 100%;
+        height: 2rem;
+        padding: .5rem;
+        font-size: 1rem;
+    }
+
+    .btn {
+        background-color: $fontLight;
+        font-weight: 700;
+        font-size: 0.8rem;
+        margin: 1rem;
+        color: $fontDarkest;
+    }
+}
