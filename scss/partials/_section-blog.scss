@@ -1,0 +1,75 @@
+.section-blog {
+  margin-bottom: 12rem;
+}
+
+.slider {
+  min-height: 500px;
+  display: flex;
+
+  .section-title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: $fontDeco;
+    font-family: $fontSecondary;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .section-text {
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+    color: $fontDark;
+    font-family: $fontPrimary;
+    font-weight: 300;
+    text-align: left;
+    border: 1px solid #f0eded;
+    padding: 2rem .5rem;
+  }
+
+  .section-author {
+    color: $fontDarker;
+    font-weight: 600;
+  }
+
+  .section-btn {
+    margin-top: 1.5rem;
+  }
+}
+
+
+.slider-prev,
+.slider-next {
+  width: 5rem;
+  border: 0;
+  background: none;
+  color: $fontDark;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+.slider-next {
+  order: 1;
+}
+
+.slider-sliders {
+  flex-grow: 1;
+  position: relative;
+
+  .slider-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    transition: 1s all;
+  }
+
+  .slider-slide-active {
+    opacity: 1;
+    z-index: 1;
+  }
+}
