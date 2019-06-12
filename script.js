@@ -46,3 +46,7 @@ function bindButtons() {
 
 bindButtons();
 showSlide(slideIndex);
+
+
+
+
