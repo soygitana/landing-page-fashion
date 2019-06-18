@@ -100,6 +100,9 @@ showSlide(slideIndex);
 
 
 
-
-
-
+$(".hamburger-menu").on("click", function() {
+    $(this).toggleClass("active");
+    $(".hamburger-menu-list").toggleClass("active-menu");
+  });
+  
+  document.addEventListener("touchstart", function(){}, true);
