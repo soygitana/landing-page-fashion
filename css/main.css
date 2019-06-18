@@ -694,3 +694,110 @@ section {
   color: #c40909;
 }
 /*# sourceMappingURL=main.css.map */
+
+/* nowe  */
+
+.section-trends {
+padding-bottom: 3rem;
+} 
+
+
+.carousel {
+  min-height: 400px;
+  display: flex;
+}
+
+
+.carousel .section-title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #c40909;
+    /* color: $fontDeco; */
+    /* font-family: $fontSecondary;  */
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .carousel .section-text {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    line-height: 1.5;
+    /* color: $fontDark;
+    font-family: $fontPrimary; */
+    font-weight: 300;
+    text-align: left;
+    padding: 1rem .5rem;
+  }
+
+  .carousel .section-author {
+    color: black;
+    /* color: $fontDarker; */
+    font-weight: 600;
+  }
+
+.carousel .section-btn {
+    margin-top: 1rem;
+  }
+
+
+
+.carousel-prev,
+.carousel-next {
+  width: 5rem;
+  border: 0;
+  background: none;
+  color: #c40909;
+  font-size: 3rem;
+  cursor: pointer;
+}  
+
+
+.carousel-next {
+  order: 1;
+}
+
+.carousel-sliders {
+  flex-grow: 1;
+  position: relative;
+}
+
+  .carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+    transition: 1s all;
+  }
+
+  .carousel-slide-active {
+    opacity: 1;
+    z-index: 1;
+  }
+
+  .carousel .sizes-box {
+display: flex;
+flex-direction: row;
+width: 12rem;;
+justify-content: space-between;
+align-items: center
+
+  }
+
+  .carousel .size-box {
+    width: 2rem;
+    height: 2rem;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+align-items: center;
+background: transparent;
+
+  }
+
+
+
+ 
