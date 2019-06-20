@@ -1115,13 +1115,17 @@ align-items: center;
 
 .section-blog .container .slider {
   width: 400px;
-margin-left: -50px;
+  margin-left: -50px;
   display: flex;
   justify-content: center;
  
 
 }
-
+.slider-prev,
+.slider-next {
+  margin-top: 20%;
+  height: 10rem;
+}
 
 .section-blog .box-flex .section-title {
   font-size: 1rem;
@@ -1150,24 +1154,31 @@ margin-left: -50px;
 @media (max-width: 450px) {
 
   .container {
-    max-width: 100%;
-
+  max-width: 300px;
+  margin: 0 auto;
   }
 }
 
 
-
 @media (max-width: 350px) {
- 
+
   .section-blog {
-    min-height: 1300px;
+    max-height: 320px;
   }
   .section-blog .container .slider {
     max-width: 350px;
     margin-left: -50px;
   
-  }
+  } 
+   
   
+.slider-prev,
+.slider-next {
+  margin-top: 15%;
+  height: 10rem;
+}
+
+ 
   .page-logo {
     font-size: 1.5rem;
   }
