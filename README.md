@@ -8,6 +8,6 @@ https://soygitana.github.io/landing-page-fashion/
 ### Technologies used:
 
 * HTML
-* Sass
+* Sass, Flexbox
 * JS
 * media queries
