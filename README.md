@@ -11,3 +11,4 @@ https://soygitana.github.io/landing-page-fashion/
 * Sass, Flexbox
 * JS
 * media queries
+* Gulp
